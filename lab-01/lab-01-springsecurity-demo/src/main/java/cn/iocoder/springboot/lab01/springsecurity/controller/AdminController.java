@@ -10,6 +10,7 @@ public class AdminController {
 
     @GetMapping("/demo")
     public String demo() {
+        System.out.println("test");
         return "示例返回";
     }
 
